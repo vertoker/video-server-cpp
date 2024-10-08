@@ -1,3 +1,6 @@
+/*
+// self
+#include <testing.hpp>
 
 // std
 #include <fmt/core.h>
@@ -7,6 +10,6 @@
 #include <boost/asio/ts/buffer.hpp>
 #include <boost/asio/ts/internet.hpp>
 
-int main() {
-
-}
+void videoserver::testing::testCoreAsio() {
+    fmt::print("Hello from video server");
+}*/
