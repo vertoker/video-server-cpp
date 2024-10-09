@@ -3,7 +3,7 @@
 # Init
 #=====
 
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 3.30)
 project(video-server)
 set(CMAKE_CXX_STANDARD 20)
 
