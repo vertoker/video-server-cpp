@@ -1,6 +1,7 @@
 
-#include "testing.hpp"
+#include "server.hpp"
+#include "client.hpp"
 
 int main() {
-    videoserver::testing::testCoreAsio();
+    videoserver::client("8.8.8.8", 1337);
 }
